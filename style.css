@@ -1,0 +1,54 @@
+
+body{
+  background-image:url("img/bg1.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+.topnav{
+  background-color:white;
+  overflow: auto;
+  width: max-contentpx;
+  margin: auto;
+}
+.topnav a {
+  float:right;
+  color: black;
+  text-align: left;
+  padding: 35px 50px 35px;
+  text-decoration: none;
+  font-size: medium;
+  max-width: fit-content ;
+  margin: auto;
+}
+.topnav a:hover {
+  background-color: blanchedalmond;
+  color: black;
+}
+.topnav a.active {
+  background-color: #04AA6D;
+  color: black;
+}
+.icon-container {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 24px;
+}
+.ibang{
+  color:gold;
+  position: absolute;
+  bottom: 15px;
+  left:15px;
+  border-style: solid;
+  border-color: black;
+
+  }
+.table,th,td{
+ border: 1px solid black;
+   border-collapse: collapse;
+}
+td{
+  color: gold;
+  margin-right: 25px;
+}
